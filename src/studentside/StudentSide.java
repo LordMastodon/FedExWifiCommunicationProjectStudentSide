@@ -44,7 +44,7 @@ public class StudentSide extends JFrame {
         inputField.getActionMap().put("enterKeyPressed", new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                console.printToConsole("[User] " + inputField.getText());
+                console.printToConsole(inputField.getText());
 
                 inputField.setText("");
             }
@@ -83,7 +83,7 @@ public class StudentSide extends JFrame {
                         console.printToConsole(receivedInput.get(i).toString());
                     }
 
-                    System.out.println("Message received");
+                    System.out.println("Message Received");
                 }
             };
 
