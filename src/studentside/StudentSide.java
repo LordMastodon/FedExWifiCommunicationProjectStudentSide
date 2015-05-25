@@ -63,8 +63,6 @@ public class StudentSide extends JFrame {
         frame.setSize(800, 600);
         frame.setVisible(true);
 
-        frame.setResizable(false);
-
         inputField.requestFocusInWindow();
     }
 
